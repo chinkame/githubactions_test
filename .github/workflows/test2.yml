@@ -11,4 +11,4 @@ jobs:
       - name: add tag
         run: git tag $(date +'%y%m%d%H%M%S')
       - name: git push
-        run: git push
+        run: git push origin
